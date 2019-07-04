@@ -1,0 +1,31 @@
+<!--pages/discover/discover.wxml-->
+<view class='main'>
+  <view class='head'>
+    <view class='head-box' wx:for="{{head}}" wx:key="{{head.name}}" bindtap='kong'>
+        <view class='image-box'>
+          <image src='{{item.url}}'></image>
+        </view>
+        <view class='text-box'>
+          <text>{{item.name}}</text>
+        </view>
+    </view>
+  </view>
+  <view class='mainbody'>
+    <view class='hot-box' wx:for="{{mainbody}}" wx:key="{{mainbody.name}}" bindtap='kong'>
+     <view class='line'></view>
+        <view class='hotimg-box'>
+          <image src='{{item.url}}'></image>
+        </view>
+        <view class='hottext-box'>
+          <view class='chou'>
+            <text>{{item.title}}</text>
+          </view>
+          <view class='product-name'>
+            <text>{{item.name}}</text>
+          </view>
+        </view>
+       
+    </view>
+  </view>
+  <view class='line'></view>
+</view>

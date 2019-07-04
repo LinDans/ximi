@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "kong": "/components/kong/kong"
+  },
+  "navigationBarBackgroundColor": "#f8f8f8",
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "1分拼团",
+  "backgroundColor": "#eeeeee",
+  "backgroundTextStyle": "light"
+}

@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "kong": "/components/kong/kong"
+  },
+  "navigationBarBackgroundColor": "#f8f8f8",
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "小米众筹",
+  "backgroundColor": "#eeeeee",
+  "backgroundTextStyle": "light"
+}
